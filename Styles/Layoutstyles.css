@@ -1,0 +1,160 @@
+/* Professional Three-Column Layout */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.common {
+    background-color: white;
+    border: 1px solid #ddd;
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: auto;
+    z-index: 2;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+}
+
+.leftmenu {
+    top: 130px;
+    left: 5px;
+    width: 180px;
+    bottom: 70px;
+    z-index: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+}
+
+.leftmenu a {
+    display: block;
+    padding: 12px 0;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #bdc3c7;
+    transition: color 0.3s ease;
+}
+
+.leftmenu a:hover {
+    color: #3498db;
+    padding-left: 5px;
+}
+
+.mainbody {
+    top: 130px;
+    left: 190px;
+    right: 190px;
+    bottom: 70px;
+    background-color: white;
+    padding: 25px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-left: 2px solid #3498db;
+}
+
+.mainbody h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.mainbody ul {
+    margin-left: 20px;
+}
+
+.mainbody li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.rightmenu {
+    top: 130px;
+    right: 5px;
+    width: 180px;
+    bottom: 70px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+}
+
+.rightmenu h4 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.rightmenu p {
+    font-size: 13px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.rightmenu a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.rightmenu a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.footer {
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border: none;
+}
+
+.subheader {
+    float: right;
+    display: flex;
+    gap: 20px;
+}
+
+.subheader a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.subheader a:hover {
+    color: #3498db;
+}
+
+.subheader a:visited {
+    color: #ecf0f1;
+}
